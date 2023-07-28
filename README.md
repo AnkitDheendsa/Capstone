@@ -1,6 +1,8 @@
 # Capstone
 Capstone project: A machine learning model that detects and translates American Sign Language to written English text
 
+NOTE: If running Jupyter notebook causes errors, please run the regular python file attached (they are the same code) to mimic the demo video. 
+
 Project Overview: 
 
 Problem Area: Mainstream technology used for online group meetings, such as Zoom, Google Meets, etc. do not provide the infrastructure to support Mute people. As a result, they are forced to resort to chat boxes to communicate with others without being able to utilize their ability to speak sign language (specifically American Sign Language).

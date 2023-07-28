@@ -1,7 +1,7 @@
 # Capstone
 Capstone project: A machine learning model that detects and translates American Sign Language to written English text
 
-NOTE: If running Jupyter notebook causes errors, please run the regular python file attached (they are the same code) to mimic the demo video. 
+NOTE: If running Jupyter notebook causes errors, please run the python file named "collect_data.py" (they are the same code) to mimic the demo video. 
 
 Project Overview: 
 

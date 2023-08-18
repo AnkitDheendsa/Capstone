@@ -18,7 +18,9 @@ Data set: The data set I will be using for this project will be a custom data se
 README.md             -> readme file for developers usage and understanding of the project
 <br>
 data_collection.py    -> python script for collecting image and numerical data of differing ASL hand signs
+<br>
 main.ipynb            -> jupyter notebook containing Sprint 2 statistical analysis and baseline modelling
+<br>
 
 # Sprint 2: 
 

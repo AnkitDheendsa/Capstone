@@ -21,6 +21,9 @@ data_collection.py    -> python script for collecting image and numerical data o
 <br>
 main.ipynb            -> jupyter notebook containing Sprint 2 statistical analysis and baseline modelling
 <br>
+Data                  -> Folder containing subfolders filled with images of each hand sign
+<br>
+CSV                   -> Folder containing 5 csv files, each csv file contains hand sign landmark coordinate data for each hand sign
 
 # Sprint 2: 
 

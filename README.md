@@ -16,9 +16,9 @@ Data set: The data set I will be using for this project will be a custom data se
 
 # Project Organization
 ```
-<b>README.md</b>             -> readme file for developers usage and understanding of the project
+**README.md**             -> readme file for developers usage and understanding of the project
 |
-<b>ASL Translator</b>
+**ASL Translator**
 │
 ├── Python Files
 │   │

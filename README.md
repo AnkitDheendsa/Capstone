@@ -52,8 +52,8 @@ Data set: The data set I will be using for this project will be a custom data se
         ├── trained_logistic_regression_model.joblib
         └── CSV
 ```
-```
 # File Dictionary
+```
 Python Files: Contains all python files for the project, if you wish to replicate the project or test it you will only need these files
 Jupyter Notebooks: Purely for marking purposes only, all jupyter notebooks are copies of original python files but with extra markdown
 <br>

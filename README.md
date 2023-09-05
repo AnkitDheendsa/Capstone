@@ -56,7 +56,7 @@ Data set: The data set I will be using for this project will be a custom data se
 ```
 Python Files: Contains all python files for the project, if you wish to replicate the project or test it you will only need these files
 Jupyter Notebooks: Purely for marking purposes only, all jupyter notebooks are copies of original python files but with extra markdown
-<br>
+
 Python Files/Data Collection/data_collection.py: Is the script used to create all custom image and tabular data for ASL hand signs
 Python Files/Logistic Regression/main.py: Is the script used to create the logistic regression on tabular ASL data
 Python Files/Logistic Regression/LogReg_Demo.py: Is the script used to demo the logistic regression in realtime via OpenCV and the webcam
@@ -67,10 +67,10 @@ Python Files/CNN Model/main.py: Is the script used to create the CNN
 Python Files/CNN Model/labels.txt: Is the txt file to store class label names and indexes
 Python Files/CNN Model/CNN_Demo.py: Is the script to demo the CNN via OpenCV and the webcam
 Python Files/CNN Model/asl_classifier.h5: Is the file that stores the CNN model
-<br>
+
 Jupyter Notebooks/CNN Model/validation_labels.txt: Is the file that stores the validation data class labels
 Jupyter Notebooks/CNN Model/LogReg.ipynb: Is the file that stores the logistic regression (same as python file)
-<br>
+
 For all other files in the Jupyter Notebooks folder, they are replicas of the files with the same names as the python versions
 ```
 # Sprint 2: 

@@ -52,9 +52,27 @@ Data set: The data set I will be using for this project will be a custom data se
         ├── trained_logistic_regression_model.joblib
         └── CSV
 ```
-
-    
-
+```
+# File Dictionary
+Python Files: Contains all python files for the project, if you wish to replicate the project or test it you will only need these files
+Jupyter Notebooks: Purely for marking purposes only, all jupyter notebooks are copies of original python files but with extra markdown
+<br>
+Python Files/Data Collection/data_collection.py: Is the script used to create all custom image and tabular data for ASL hand signs
+Python Files/Logistic Regression/main.py: Is the script used to create the logistic regression on tabular ASL data
+Python Files/Logistic Regression/LogReg_Demo.py: Is the script used to demo the logistic regression in realtime via OpenCV and the webcam
+Python Files/Logistic Regression/trained_logistic_regression_model.joblib: Is the joblib file to store the logistic regression model
+Python Files/Logistic Regression/label_encoder.joblib: Is the joblib file to save the logistic regression encoder
+Python Files/Logistic Regression/CSV: Is the CSV folder containing all CSV/tabular subfolders for ASL data
+Python Files/CNN Model/main.py: Is the script used to create the CNN
+Python Files/CNN Model/labels.txt: Is the txt file to store class label names and indexes
+Python Files/CNN Model/CNN_Demo.py: Is the script to demo the CNN via OpenCV and the webcam
+Python Files/CNN Model/asl_classifier.h5: Is the file that stores the CNN model
+<br>
+Jupyter Notebooks/CNN Model/validation_labels.txt: Is the file that stores the validation data class labels
+Jupyter Notebooks/CNN Model/LogReg.ipynb: Is the file that stores the logistic regression (same as python file)
+<br>
+For all other files in the Jupyter Notebooks folder, they are replicas of the files with the same names as the python versions
+```
 # Sprint 2: 
 
 Data Download: 2000 images and their numerical representations (via landmark positions) were captured for each of the 5 American Sign Language symbols that pertain to the letters "A","N","K","I","T" respectively for a total of 10,000 images/landmark coordinates. This was done by updating the data collection script previously had to now incorporate landmarks on the hands joints (updated version of data collection file has been uploaded as of this sprint).
@@ -69,4 +87,10 @@ Stats and Modelling: The statistical analysis and modelling that was conducted i
 
 
 # Sprint 3:
-Advanced deep learning modelling. Started with a baseline logistic regression model and created a demo script for that then moved on to creating a Convolutional Neural Network for image recognition with image data of different hand signs for the letters "A", "B", "C", "N", "K", "I", "T" and "Hello"
+Advanced deep learning modelling. Started with a baseline logistic regression model and created a demo script for that then moved on to creating a Convolutional Neural Network for image recognition with image data of different hand signs for the letters "A", "B", "C", "N", "K", "I", "T" and "Hello". The modelling was conducted as follows: 
+
+- Test logistic regression accuracy on still images
+- Test logistic regression with real time webcam video data
+- Create CNN and train on still image data
+- Test CNN accuracy on still images (via validation data set)
+- Test CNN with real time webcam video data

@@ -17,13 +17,42 @@ Data set: The data set I will be using for this project will be a custom data se
 # Project Organization
 README.md             -> readme file for developers usage and understanding of the project
 <br>
-data_collection.py    -> python script for collecting image and numerical data of differing ASL hand signs
-<br>
-main.ipynb            -> jupyter notebook containing Sprint 2 statistical analysis and baseline modelling
-<br>
-Data                  -> Folder containing subfolders filled with images of each hand sign
-<br>
-CSV                   -> Folder containing 5 csv files, each csv file contains hand sign landmark coordinate data for each hand sign
+<b>ASL Translator</b>
+│
+├── Python Files
+│   │
+│   ├── Data Collection
+│   │   └── data_collection.py
+│   │
+│   ├── Logistic Regression
+│   │   ├── LogReg_Demo.py
+│   │   ├── main.py
+│   │   ├── trained_logistic_regression_model.joblib
+│   │   ├── label_encoder.joblib
+│   │   └── CSV
+│   │
+│   └── CNN Model
+│       ├── asl_classifier.h5
+│       ├── labels.txt
+│       ├── CNN_Demo.py
+│       └── main.py
+│
+└── Jupyter Notebooks
+    │
+    ├── CNN Model
+    │   ├── CNN.ipynb
+    │   ├── labels.txt
+    │   ├── asl_classifier.h5
+    │   └── validation_labels.txt
+    │
+    └── Logistic Regression
+        ├── LogReg.ipynb
+        ├── label_encoder.joblib
+        ├── trained_logistic_regression_model.joblib
+        └── CSV
+
+
+    
 
 # Sprint 2: 
 
@@ -36,3 +65,7 @@ Stats and Modelling: The statistical analysis and modelling that was conducted i
 - Correlation Analysis: Calculating correlation amongst features (landmarks)
 - Logistic Regression: Predicting landmark values via other features
 - Confusion Matrix: Evaluating logistic regression performance
+
+
+# Sprint 3:
+Advanced deep learning modelling. Started with a baseline logistic regression model and created a demo script for that then moved on to creating a Convolutional Neural Network for image recognition with image data of different hand signs for the letters "A", "B", "C", "N", "K", "I", "T" and "Hello"

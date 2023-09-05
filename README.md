@@ -17,7 +17,7 @@ Data set: The data set I will be using for this project will be a custom data se
 # Project Organization
 README.md             -> readme file for developers usage and understanding of the project
 <br>
-<b>ASL Translator</b>
+```<b>ASL Translator</b>
 │
 ├── Python Files
 │   │
@@ -50,7 +50,7 @@ README.md             -> readme file for developers usage and understanding of t
         ├── label_encoder.joblib
         ├── trained_logistic_regression_model.joblib
         └── CSV
-
+```
 
     
 
